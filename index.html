@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home: Cocoon</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<!-- inicio encabezado -->
+
+<div class="grid-container"> <!-- GRILLA -->
+
+    <header class="header">
+      
+      <nav class="menu"> <!-- menu de navegacion -->
+            <div class="header__logo"> <!-- logo -->
+                    <a href="index.html" target="_blank">
+                    <img src="./img/logonaranj.png" alt="Home">
+                </a>   
+            </div>
+                   
+            <ul>
+                    <li><a href="index.html" target="_self">Home</a></li>    
+                    <li><a href="./pages/reserva.html" target="_self">Reserva</a></li>
+                    <li><a href="./pages/Acuerdococoon.html" target="_self">Acuerdo Cocoon</a></li>
+                    <li><a href="./pages/Eventos.html" target="_self">Eventos</a></li>
+                    <li><a href="./pages/anfitrion.html" target="_self">Sos anfitrión?</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+  
+    <main class="main"> <!-- sección principal -->
+
+        <h1 class="title">El lugar que necesitas a tu alcance</h1>
+        <h3 class="subtitle">encontra una casa, un jardín, una sala, un centro cultural para cualquier actividad artística que quieras desarrollar</h3>
+        <div class="parallax">
+
+        <form action="" method="get"  class="formulario">
+            
+
+                <label for="ubicacion">Ubicación:</label>
+                <input type="text" id="ubicacion" placeholder="barrio, ciudad" required>
+
+                <label for="canthoras">Horas necesarias:</label>
+                <input type="number" id="horas" placeholder="horas reservadas" required>
+
+                <label for="fechaevento">Fecha:</label>
+                <input type="date" id="fecha" placeholder="fecha de evento" required>
+
+                <label for="m2minimo">Superficie:</label>
+                <input type="number" id="m2minimo" placeholder="m2 minimo" required>
+
+                <input type="submit" value="Buscar">
+                <input type="reset" value="Borrar">
+
+            
+        </form>
+   
+
+</main>
+
+
+    <aside class="aside">
+        <img class="aside__img" src="./img/publico.jpg" alt="">
+        <img class="aside__img" src="./img/mira.jpeg" alt="">
+    </aside>
+
+    <footer id="footer">
+        <p>Made by Cocoon &copy; 2021</p>  
+        <a href="at:hello@cocoon.com" target="_blank">Contacto</a>
+    </footer>
+
+</div>
+</body>
+</html>
