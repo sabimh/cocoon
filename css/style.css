@@ -115,6 +115,12 @@ nav.menu ul li a:hover{
     width: 100%;
 }
 
+.main__img {
+    width:60%;
+    border-radius: 10px;
+    margin: 50px;
+}
+   
 
 .formulario {
     color: #C8F8D6;
@@ -148,7 +154,6 @@ nav.menu ul li a:hover{
   }
 
 .card--cajaImg {
-    
     width:500px;
     border-top-left-radius: round;
     }
@@ -274,6 +279,11 @@ nav.menu ul li a:hover{
         font-size: 20px;
         width:100%;
         }
+
+    .aside__img {
+        margin: 25px;
+       }
+        
 
     }
    
