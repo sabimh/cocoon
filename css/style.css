@@ -53,7 +53,7 @@ nav.menu {      /*  contenedor padre */
    width: 100%;
    justify-content: center;
    height:100px;
-   border-bottom: solid 5px;
+   border-bottom: solid 0px;
    border-color: #B4B4AF;
    position: sticky;
    }
@@ -134,12 +134,32 @@ nav.menu ul li a:hover{
     border-right: 1px solid rgb(241, 238, 237);
     cursor: text;
     padding: 60px 40px;
-    margin: 90px 5px;         
-    font-size: 20px;
+    margin: 10px 5px;         
+    font-size: 15px;
     align-items:center;
     position:sticky;
-    justify-items: center;
+    justify-items: left;
+    
     }
+
+.form__input {
+color:black;
+transition: all 1s;
+width:30px;
+height: auto;
+border-radius: 5px;
+}
+
+.form__input:focus {
+    background:grey;
+    width:80px;
+    color:#050D1F;
+    padding-left: 2px;
+    }
+    
+::placeholder {
+    color:gray;
+}
     
 .sectionContainer {
     display: flex;
@@ -179,8 +199,8 @@ nav.menu ul li a:hover{
         align-items: center;
         width: 100%;
         justify-content: center;
-        background-color: #FF171C;
         justify-items: center;
+        background-image: linear-gradient(to bottom, #050D1F, #FF171C);
      
     }
 
