@@ -27,6 +27,7 @@ a {
 }
 .header {
     grid-area: header;
+    margin: 20px;
     }
 
 .nav__bgcolor {
