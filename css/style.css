@@ -61,9 +61,9 @@ a {
 
 .main {
     grid-area: main;
-    padding-left: 100px;
-    padding-top:20px;
     width: 100%;
+    padding: 50px 100px;
+    margin: 100px 20px;
 }
 
 .main__img {
@@ -107,6 +107,66 @@ border-radius: 5px;
     color:#050D1F;
     padding-left: 2px;
     }
+
+/* comienzo formulario anfitrion */
+
+.formAnf{
+    width: 100%;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    background-color:#050D1F;
+    border-radius: 10px;
+    
+}
+.formAnf input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: #fff;
+    padding-top: 20px;
+    border: none;
+    outline: 0px;
+}
+.form .lbl-nombreAnf{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #c7c7c7;
+}
+.form .lbl-nombreAnf:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #2ecece;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+.text-nombAnf{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+.formAnf input:focus + .lbl-nombreAnf .text-nombAnf,.formAnf input:valid + .lbl-nombreAnf .text-nombAnf{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #2ecece;
+}
+.formAnf input:focus + .lbl-nombreAnf:after, .formAnf input:valid + .lbl-nombreAnf:after{
+    transform: translateX(0%);
+}
+
+/* fin formulario anfitrion */
 
 ::placeholder {
     color:gray;
@@ -233,6 +293,7 @@ border-radius: 5px;
     border-top-color: #DDDDDD;
     text-decoration: none;
     padding-top: 10px;
+    margin-top: 20px;
     }
 
 @media screen and (max-width: 468px) {
