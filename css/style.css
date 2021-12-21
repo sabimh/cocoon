@@ -248,7 +248,7 @@ a {
         "aside aside aside"
         "footer footer footer";
         grid-template-rows: 100px auto 3/4 auto;
-        gap: 10px;
+        gap: 0px;
         }    
    
     
