@@ -60,23 +60,96 @@
 
 </header>
 
+<main class="main">
+
+  
 <h1 class="title">Describe lo que deseas ofrecer</h1>
 <h3 class="subtitle">una casa, un espacio, una sala, un centro cultural</h3>
 
-<div class="parallax"> <!-- fondo que se desplaza-->
-
-<main class="main">
     
 
-    <form class="formAnf">
-		<input type="text" required>
-		<label class="lbl-nombreAnf">
-			<span class="text-nombAnf">Superficie libre (m2)</span>
-		</label>
+  <div class="formularioAnf">
+            
+    <form class="row g-4">
+      <div class="col-md-4">
+        <label for="Fecha" class="form-label">Días disponibles</label>
+        <input type="date" class="form-control" id="inputEmail4">
+      </div>
 
-     
+      <div class="col-4">
+        <label for="Area" class="form-label">Superficie libre</label>
+        <input type="number" class="form-control" id="inputAddress" placeholder="a partir de 25 m2">
+      </div>
 
-	</form>
+      <div class="col-4">
+        <label for="Horas" class="form-label">Horas disponibles</label>
+        <input type="number" class="form-control" id="inputAddress" placeholder="ej: 4 horas">
+      </div>
+
+      <div class="col-md-6">
+
+
+        
+        <label for="Act artistica" class="form-label">Actividades artisticas permitidas</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Artes plásticas
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            Cine
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            Literatura
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            Música
+          </label>
+        </div>
+      </div>
+
+    
+
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+
+     <div class="col-md-6">
+        <label for="Ubicacion" class="form-label">Ubicacion</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="barrio">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Ciudad</label>
+        <select id="inputState" class="form-select">
+          <option selected>Selecciona...</option>
+          <option>Gran Buenos Aires</option>
+          <option>Capital Federal</option>
+          <option>Rosario</option>
+          <option>Córdoba</option>
+          <option>Bariloche</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">CP </label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Ofrecer</button>
+      </div>
+    </form>
+  
+    </div>
 
 
 </main>
