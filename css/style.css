@@ -247,7 +247,7 @@ a {
         "main main main"
         "aside aside aside"
         "footer footer footer";
-        grid-template-rows: 100px auto 3/4 auto;
+        grid-template-rows: 100px auto auto auto;
         gap: 0px;
         }    
    
