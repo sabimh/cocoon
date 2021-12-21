@@ -253,7 +253,6 @@ a {
    
     
     .main {
-        padding-left:0px;
         align-items: center;
         justify-content: space-around;
         width: 100%;
@@ -261,6 +260,15 @@ a {
         margin: 0px;
         padding-top: 50px;
         }
+
+     .acuerdo {
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        }
+    
         
         
      .aside__img {
