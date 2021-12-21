@@ -68,18 +68,12 @@ a {
 
 
 .mainAcuerdo {
-   width: 100%;
-    padding-top: 50px;    
+    width: 100%;
     background-color: #050D1F;
     
 }
 
-.acuerdo{
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
 
-}
 
 .main__img {
     width:60%;
@@ -258,9 +252,14 @@ a {
         width: 100%;
         padding: 0px;
         margin: 0px;
-        padding-top: 50px;
+        padding-top: 20px;
         }        
         
+    .mainAcuerdo {
+        height:100%;
+        }  
+
+
      .aside__img {
         padding: 25px;
        }
