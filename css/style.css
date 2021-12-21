@@ -260,24 +260,8 @@ a {
         }
         
      
-    .formulario {
-        color: #C8F8D6;
-        font-size:large;
-        text-align: left;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
-        background-color: #050D1F;
-        border-radius: 25px;
-        display:grid;
-        border-right: 1px solid rgb(241, 238, 237);
-        cursor: text;
-        padding: 20px 25px;
-        margin: 50px;         
-        font-size: 20px;
-        width:100%;
-        }
-
-    .aside__img {
-        margin: 25px;
+     .aside__img {
+        padding: 25px;
        }
         
 
