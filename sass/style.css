@@ -6,6 +6,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #B4B4AF;
 }
 
 .card {
@@ -32,13 +33,13 @@
 
 .card .card__text {
   font-family: sans-serif;
-  color: #FF171C;
+  color: #050D1F;
 }
 
 .card .card__btn a {
   text-decoration: none;
   background-color: #FF171C;
-  color: #C9F8D6;
+  color: #050D1F;
   padding: 10px 20px;
   border-radius: 30px;
   font-family: sans-serif;
@@ -46,7 +47,7 @@
 }
 
 .card .card__btn a:hover {
-  background-color: #C9F8D6;
+  background-color: #050D1F;
   color: #FF171C;
 }
 
