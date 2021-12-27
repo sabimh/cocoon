@@ -1,0 +1,59 @@
+@import 'vars';
+
+.card-container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    background-color: $color-gris;
+}
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    border: 5px solid;
+    border-radius: $bordes-redondeados;
+    border-color: $color-principal;
+    padding: 20px;
+    & &__img img {
+        width: 100%;
+        height: auto;
+        border-radius: $bordes-redondeados;
+    }
+    & &__title {
+        font: {
+            family: $fuente-titulos;
+            size: 1.5rem;
+            style: normal;
+         }
+         color: $color-principal;
+    }
+    & &__text {
+        font-family: $fuente-regular;
+        color: $color-principal;
+    }
+    & &__btn {
+        a {
+            text-decoration: none;
+            background-color: $color-base;
+            color: $color-principal;
+            padding: 10px 20px;
+            border-radius: $bordes-redondeados;
+            font-family: $fuente-regular;
+            display: inline-block;
+            
+            &:hover {
+                background-color: $color-osc;
+                color: $color-base;
+            }
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+.card-container {
+    flex-direction: column;
+  
+    }
+}
