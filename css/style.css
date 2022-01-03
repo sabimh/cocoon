@@ -62,9 +62,10 @@ a {
 .main {
     grid-area: main;
     width: 100%;
-    padding: 50px 100px;
-    margin: 50px 20px;
+    padding: 100px 100px;
+    margin: 20px;
     margin-left: 0px;
+    background-color: #B4B4AF;
 }
 
 
@@ -92,7 +93,7 @@ a {
     color: #C8F8D6;
     font-size:large;
     text-align: left;
-    padding: 100px 20px;
+    padding: 20px 20px;
     background-color: #050D1F;
     border-radius: 10px;
 }
@@ -170,36 +171,37 @@ a {
    }
 
 /* precios*/
+
    .card1:hover {
-    background:#00ffb6;
-    border:1px solid #00ffb6;
+    background: #C9F8D6;
+    border:1px solid #C9F8D6;
   }
 
   .card1:hover .list-group-item{
-    background:#00ffb6 !important
+    background:#C9F8D6 !important
   }
 
-
-  
-
-
   .card2:hover {
-    background:#00C9FF;
-    border:1px solid #00C9FF;
+    background:#FF171C;
+    border:1px solid #FF171C;
+
+    
   }
 
   .card2:hover .list-group-item{
-    background:#00C9FF !important
+    background:yellow !important
   }
 
 
   .card3:hover {
-    background:#ff95e9;
-    border:1px solid #ff95e9;
+    background:#050D1F;
+    border:1px solid #050D1F;
+    color: #C9F8D6;
+   
   }
 
   .card3:hover .list-group-item{
-    background:#ff95e9 !important
+    background:black !important
   }
 
 
@@ -207,6 +209,8 @@ a {
     color:white;
     background:#212529;
   }
+
+  
 
 /* fin precios*/
       
@@ -224,6 +228,7 @@ a {
     border-top-color: #DDDDDD;
     text-decoration: none;
     padding: 10px;
+    margin: 0px;
     
     }
 
