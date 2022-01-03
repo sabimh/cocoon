@@ -65,7 +65,7 @@ a {
     padding: 100px 100px;
     margin: 20px;
     margin-left: 0px;
-    background-color: #B4B4AF;
+    
 }
 
 
@@ -141,9 +141,10 @@ a {
         padding-top: 30px;
         align-items: center;
         width: 100%;
+        padding-left: 30px;
         justify-content: center;
         justify-items: center;
-        background-image: linear-gradient(to bottom, #050D1F, #FF171C);
+        background-image: linear-gradient(to right, #FF171C, #050D1F);
      
     }
 
@@ -161,13 +162,17 @@ a {
     filter: saturate(1);
     }
 
-.parallax {    /* ver*/
+.parallax {    /*fondo*/
     background-image: url("../img/moodboard-05.png");
-    height: 200px;
-    background-attachment: fixed;  
-    background-position: center;
+    height: 500px;
+    background-attachment:fixed;  
+    background-position:center;
     background-repeat: no-repeat;    
     background-size: cover;   
+   }
+
+   .carousel__size {    /*carousel*/
+    height: 50px;
    }
 
 /* precios*/

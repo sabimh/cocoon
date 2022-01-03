@@ -69,18 +69,12 @@ $red-social: (
     tk: black
 );
 
-@each $nombre, $valor in $red-social {
-    .icon-#{$nombre} {
-        color: $valor;
+@each $name, $value in $red-social {
+    .icon--#{$name} {
+     color: $value;
     }
-}
+  }
 
-$headings: (
-    h1: 48px,
-    h2: 36px,
-    h3: 24px,
-    h4: 16px
-);
 
 
 @media screen and (max-width: 576px) {
