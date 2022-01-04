@@ -51,6 +51,32 @@
   color: #FF171C;
 }
 
+/* maps */
+.footer {
+  padding: 10px;
+  color: white;
+}
+
+.icon--tw {
+  color: aqua;
+}
+
+.icon--fb {
+  color: blue;
+}
+
+.icon--ig {
+  color: blueviolet;
+}
+
+.icon--in {
+  color: lightblue;
+}
+
+.icon--tk {
+  color: black;
+}
+
 @media screen and (max-width: 576px) {
   .card-container {
     -webkit-box-orient: vertical;

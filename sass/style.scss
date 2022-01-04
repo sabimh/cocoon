@@ -57,15 +57,13 @@
 
 .footer{
     padding: 10px;
-    color: map-get($red-social);
+    color: white;
 }
 
 
 $red-social: (
-    tw: aqua,
     fb: blue,
     ig: blueviolet,
-    in: lightblue,
     tk: black
 );
 
