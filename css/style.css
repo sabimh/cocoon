@@ -65,6 +65,7 @@ a {
     padding: 100px 100px;
     margin: 20px;
     margin-left: 0px;
+    background-color: whitesmoke;
     
 }
 
@@ -89,13 +90,18 @@ a {
     padding: 100px 20px;
 }
 
+
+
 .formularioAnf {
     color: #C8F8D6;
     font-size:large;
     text-align: left;
     padding: 20px 20px;
+    margin: 0px 250px;
     background-color: #050D1F;
     border-radius: 10px;
+    background-image: linear-gradient(to right, #FF171C, #050D1F);
+
 }
 
    
@@ -171,6 +177,15 @@ a {
     background-size: cover;   
    }
 
+   .parallax_footer {    /*fondo pie de pagina*/
+    background-image: url("../img/moodboard-05.png");
+    height: auto;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;    
+    background-size: cover;   
+   }
+
    .carousel__size {    /*carousel*/
     height: 50px;
    }
@@ -227,14 +242,10 @@ a {
     font-size:medium;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
     flex-wrap: wrap;
-    background-color: #B4B4AF;
-    padding-right: 50px;
+    background-color: whitesmoke;
     width: 100%;
-    border-top-color: #DDDDDD;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0px;
-    
+    padding-top: 10px;
+          
     }
 
 
@@ -272,6 +283,11 @@ a {
        #footer {
         margin-top: 100px;
        }
+
+       .formularioAnf {
+        margin: 0px 0px;
+        
+    
 
 
     }
